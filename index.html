@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Road map</title>
-</head>
-<body>
+    <title>RoadMap</title>
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
     <script>
       // Отправляет событие инициализации нативному клиенту
       vkBridge.send('VKWebAppInit');
     </script>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
     <script 
     type="text/javascript"
     charset="utf-8" 
     async 
-    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad250009df7f4e0a3c6e8295f7937372749d7e5da1c7eab2ea9d25d38158498ba&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad250009df7f4e0a3c6e8295f7937372749d7e5da1c7eab2ea9d25d38158498ba&amp;lang=ru_RU&amp;scroll=true">
     </script>
 </body>
 </html>
